@@ -15,7 +15,7 @@ CREATE TABLE `oc_city` (
   `city_id` int(11) NOT NULL AUTO_INCREMENT,
   `zone_id` int(11) NOT NULL,
   `name` varchar(128) NOT NULL,
-  `postcode` varchar(32) NOT NULL,
+  `postcode` varchar(6) NOT NULL,
   PRIMARY KEY (`city_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
